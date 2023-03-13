@@ -6,7 +6,7 @@ Usage
 
 To use the Word Transformer application, run the main method and provide the path to the input file as a command-line argument. The input file should contain start and end words in the first line followed by a list of words separated by a comma in the second line. The application reads the input file, performs the word transformation, and returns the shortest path found.
 
-java WordTransformerApplication valid_words.txt
+mvn clean compile exec:java
 
 Word Transformer Algorithm
 
